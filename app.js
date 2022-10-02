@@ -7,46 +7,6 @@ let artworks = [
     title: 'BTS',
     subtitle: 'JUNGKOOK',
   },
-  {
-    artist: 'LUNULALYRA',
-    attribution: 'https://www.instagram.com/lunulalyra/',
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/SKZ%20FELIX%20LUNULALYRA.png?alt=media&token=ae2ffcb0-a8a9-4310-9f36-edeb411bfc8a',
-    title: 'STRAY KIDS',
-    subtitle: 'FELIX',
-  },
-  {
-    artist: 'LUNULALYRA',
-    attribution: 'https://www.instagram.com/lunulalyra/',
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/AESPA%20WINTER%20Lunulalyra.png?alt=media&token=66363cba-94c8-4904-972c-a8f820f5ed4d',
-    title: 'AESPA',
-    subtitle: 'WINTER',
-  },
-  {
-    artist: 'LUNULALYRA',
-    attribution: 'https://www.instagram.com/lunulalyra/',
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/BLACKPINK%20JENNIE%20Lunulalyra.png?alt=media&token=65a60b23-7a44-4868-a409-4d07851556a2',
-    title: 'BLACKPINK',
-    subtitle: 'JENNIE',
-  },
-  {
-    artist: 'LUNULALYRA',
-    attribution: 'https://www.instagram.com/lunulalyra/',
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/AESPA%20KARINA%20Lunulalyra.png?alt=media&token=28aebd01-6f74-4416-933d-1cbb655a4cd2',
-    title: 'AESPA',
-    subtitle: 'KARINA',
-  },
-  {
-    artist: 'LUNULALYRA',
-    attribution: 'https://www.instagram.com/lunulalyra/',
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/SKZ%20IN%20LUNULALYRA.png?alt=media&token=761bf173-09f0-4670-b38c-b393c170f71a',
-    title: 'STRAY KIDS',
-    subtitle: 'I.N',
-  },
 ];
 
 let oldIndex,
