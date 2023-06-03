@@ -1,0 +1,294 @@
+:root {
+  --star: url("https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/Star.png?alt=media&token=f8556f8f-898b-46df-9e50-5a3f0568e0b2");
+  --background: url("https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/Background.png?alt=media&token=ec6b21fc-2b5a-4c02-a1aa-ebbd420e33f2");
+  --card: url("https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/Photocard%20Design%20SHD.png?alt=media&token=d509f377-8bde-4b7a-9ed2-73377d184850");
+  --logo: url("https://firebasestorage.googleapis.com/v0/b/freelancektwine.appspot.com/o/K-twined%20Logo.png?alt=media&token=5109f72f-99d2-43f1-8bf6-6feb8d20200c");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: serif;
+}
+
+html {
+  background-image: var(--background);
+  background-size: cover;
+  background-position: top left;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  color: white;
+  position: relative;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+u {
+  font-size: 2rem;
+}
+
+a {
+  color: #2d9bf0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+  position: absolute;
+  top: -100%;
+  left: -100%;
+}
+
+header {
+  margin: 0.5rem auto 0rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  width: fit-content;
+  margin: auto;
+}
+
+header button {
+  display: flex;
+  margin: 0;
+  padding: 8px 24px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+header button.logo {
+  display: flex;
+  background-image: var(--logo);
+  background-size: 100% 100%;
+  width: 4rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+header .star-icon {
+  display: flex;
+  background-image: var(--star);
+  background-size: 100% 100%;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem auto 2rem;
+  pointer-events: none;
+  width: 0;
+  opacity: 0;
+  position: absolute;
+  overflow: hidden;
+  transition: opacity 750ms ease-in-out;
+}
+
+.container.is-visible {
+  width: 100vw;
+  height: auto;
+  pointer-events: all;
+  position: relative;
+  opacity: 1;
+}
+
+.about__outer {
+  border: 15px solid rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.about__outer::before,
+.about__outer::after {
+  content: "";
+  display: block;
+  background-image: var(--star);
+  background-size: 100% 100%;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+}
+
+.about__outer::before {
+  left: -5rem;
+  transform: translate(-50%, -50%);
+}
+
+.about__outer::after {
+  right: -8rem;
+  transform: translate(-50%, -50%);
+}
+
+.about__inner {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 3rem;
+  margin: 5px;
+}
+
+.about__inner u {
+  display: block;
+  text-align: center;
+}
+
+.about__inner p {
+  display: block;
+  max-width: 65ch !important;
+}
+
+section .card {
+  display: block;
+  width: 30rem;
+  height: 48.2011rem;
+  border-radius: 2.6rem;
+  transition: all 1s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+section a {
+  color: white;
+}
+
+.flex {
+  display: flex;
+  width: 30rem;
+  margin: 3rem auto 0;
+}
+.flex__side {
+  margin-right: -30rem;
+}
+.flex__side--front {
+  background-image: var(--card);
+  background-size: 100%;
+}
+.flex__side--back {
+  transform: rotateY(180deg);
+  position: "relative";
+  z-index: 2;
+}
+.flex__side--back .artwork {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 91%;
+  height: 96%;
+  position: relative;
+  z-index: 2;
+  margin: 1rem auto;
+}
+.flex__side--back .content {
+  position: absolute;
+  bottom: -4.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 91%;
+  color: white;
+  z-index: 3;
+  font-size: 2rem;
+}
+.flex__side--back .content div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.flex__side--back .panel {
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  width: calc(100% + 100px);
+  height: calc(100% + 110px);
+  z-index: 1;
+  border: 15px solid rgba(0, 0, 0, 0.5);
+}
+.flex__side--back .panel div {
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 5px;
+}
+.reveal .flex__side--front {
+  transform: rotateY(-180deg);
+}
+.reveal .flex__side--back {
+  transform: rotateY(0deg);
+}
+
+section button {
+  cursor: pointer;
+  margin: 9rem auto 2rem;
+  padding: 8px 24px;
+  border: none;
+  background-color: #302e2a;
+  border-radius: 30px;
+  color: white;
+  font-size: 2rem;
+  z-index: 10;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.join__outer {
+  border: 15px solid rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.join__outer::before,
+.join__outer::after {
+  content: "";
+  display: block;
+  background-image: var(--star);
+  background-size: 100% 100%;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+}
+
+.join__outer::before {
+  left: -5rem;
+  transform: translate(-50%, -50%);
+}
+
+.join__outer::after {
+  right: -8rem;
+  transform: translate(-50%, -50%);
+}
+
+.join__inner {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 3rem;
+  margin: 5px;
+}
+
+.join__inner p {
+  display: block;
+  max-width: 50ch !important;
+}
