@@ -11,13 +11,13 @@
         </p>
         <br /><br />
         <p>
-          This is a way to bring artists together and display their work in a entertaining way to
+          This is a way to bring artists together and display their work in an entertaining way to
           viewers, creating a wider reach for discovering new artists! No matter if you have a small
           or big following, all are welcome!
         </p>
         <br /><br />
         <p>
-          As there is nothing more exciting then opening that fresh album and the anticipation and
+          As there is nothing more exciting than opening that fresh album and the anticipation and
           curiosity behind what kind of photocard you will get!
         </p>
         <br /><br /><br />
@@ -25,11 +25,12 @@
         <p>
           I hope to have this project up and running for a long time! As time goes by, I hope more
           and more artists join in to create a community! Here are some things to look forward to
-          for the future of K-twined-<br /><br />Every week I'll feature new work from different artists
-          and every so often I'll change the theme of the website to align with special events!<br /><br />
-          Oh! I am considering making an app that would automatically notify you about new featured works
-          so please let me know if you'd be interested! In the meantime be sure to follow me on Instagram! -
-          <a href="https://www.instagram.com/lunulalyra/">@lunulalyra</a>
+          for the future of K-twined-
+        </p>
+        <br /><br />
+        <p>
+          Every so often I'll feature new work from different artists and occasionally I'll change
+          the theme of the website to align with special events!
         </p>
       </div>
     </div>
