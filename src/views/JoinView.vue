@@ -25,30 +25,32 @@ export default {
       <!-- back background and padding -->
       <div class="join__inner">
         <p>
-          You asked for it and now it's finally here! I've added the ability to log in
-          using your google account. You can now add as many images as you wish! You can
-          also send people directly to your own handle so they'll only see your content!
-          For example, my artist handle is lunulalyra and you can find only my content at
+          We have made updates to Ktwined, now you can manage your own artworks and add as many
+          images as you wish, so you have more control now! You can also send people directly to
+          your own handle so they'll only see your content! For example, my artist handle is
+          lunulalyra and you can find only my content at
           <a href="https://www.k-twined.com/lunulalyra">k-twined.com/lunulalyra</a>!
         </p>
         <br /><br />
         <p>
-          You can also use different pen names to separate your collections for each community.
-          Each week I'll pick several artworks to feature on the home page, so check back often
-          to see the new content and check if your work was featured!
+          Please note! Once you join in, I would appreciate it if you could share the website around
+          and possibly have a link to it on your Instagram bio or Linktree, Carrd or any other
+          landing page you use! As this will indicate that you have your work on there plus increase
+          the reach of discovering new artists!
         </p>
         <br /><br />
         <p>
-          Please note! Once you joined in, I would appropriate it you if could share the website
-          around and possibly have a link to it on your Instagram bio or Linktree, Carrd or any
-          other landing page you use! As this will indicate that you have your work on there plus
-          increase the reach of discovering new artists!
+          Lastly, you can delete your content at any time. The only information we store about you
+          is your google email, your ramdomly generated user id and the art you upload. You can
+          remove your artwork at any time for any reason. I also reserve the right to remove your
+          artwork at any time and for any reason, even if it's not featured.
         </p>
         <br /><br />
         <p>
-          Lastly, you can delete you content at any time. The only information we store about you is 
-          your google profile id and the art you upload. You can remove your artwork at any time for any reason.
-          I also reserve the right to remove your artwork at any time and for any reason, even if it's not featured.
+          Any issues with uploading your artworks, please let me know and I can help you out. If you
+          are having problems, I have more information on my
+          <a href="https://lunulalyra.carrd.co/" target="_blank" rel="noopener">Carrd</a> about
+          uploading images! Thank you so much once again!
         </p>
         <br />
         <button @click="googleSignIn" class="signin">Sign In with Google</button>
@@ -119,5 +121,4 @@ export default {
   border: none;
   font-weight: bold;
 }
-
 </style>
